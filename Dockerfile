@@ -1,4 +1,4 @@
-FROM centos
+FROM php:apache
 MAINTAINER m5151128
 
 RUN echo '<?php phpinfo();' > /var/www/html/index.php
